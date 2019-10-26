@@ -28,3 +28,9 @@ This object file contains the characteristics information about the directory fi
 >1. Download the zip folder of the git repository containing the code of the application.
 >2. In the directory `src` run the command `python3 -m pip install -r requirements.txt` in order to obtain all the libraries to launch the application.
 >3. Launch the application using `python3 whoiswho.py <sample_image> <document_directory>` in the directory `src`.
+
+# Contributors
+
+- [condiom](https://github.com/condiom)
+- [tratrafe2](https://github.com/tratrafe2)
+- [mefty](https://github.com/mefty)
