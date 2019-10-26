@@ -6,7 +6,8 @@ import pickle
 import base64
 import time
 
-def getFace(imagePath):
+
+def get_face(imagePath):
     """
     This function reads an image from a given path and by using the opencv library, and a given cascade xml file,
     it detects all faces in the image and returns a cropped image containing only the dominant face.
@@ -44,7 +45,7 @@ def scan_file(path):
     :return: Returns an object with all the characteristics of the image.
              If a face is not recognised or has no characteristics, a none object is returned.
     """
-    image = getFace(path)
+    image = get_face(path)
     if image is not None:
         encodings = face_recognition.face_encodings(image)
         if len(encodings) > 0:
@@ -61,7 +62,7 @@ def scan_file(path):
 def scan_path(directory):
     """
     This function reads image files from a given directory.
-    Afterwards it uses the function getface() to locate the face in the image, and finally extracts the facial
+    Afterwards it uses the function get_face() to locate the face in the image, and finally extracts the facial
     characteristics from the face part of the image by using the face_recognition api.
     The extracted characteristics are saved as a pickle file in another directory. This allows to save time by
     skipping the calculation of known directories. In case the modification date of a directory has changed,
@@ -86,7 +87,7 @@ def scan_path(directory):
     for (dirpath, dirnames, filenames) in os.walk(directory):
         for f in filenames:
             path=dirpath+'/'+f;
-            image=getFace(path)
+            image=get_face(path)
             if image is not None:
                 encodings = face_recognition.face_encodings(image)
                 if len(encodings) > 0:
