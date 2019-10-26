@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3348206-1af9-423e-8052-0ecf900445a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WIW_lib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/documentfolder/document1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/documentfolder/document2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/documentfolder/document3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sample/sample1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sample/sample2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/haarcascade_frontalface_default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whoiswho.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pycharm_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pycharm_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/documentfolder/document1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/documentfolder/document2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/documentfolder/document3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sample/sample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sample/sample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/haarcascade_frontalface_default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/haarcascade_frontalface_default.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,6 +118,14 @@
       <updated>1572080846528</updated>
       <workItem from="1572080847637" duration="39000" />
     </task>
+    <task id="LOCAL-00001" summary="Working commit">
+      <created>1572108774968</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572108774968</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +143,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Working commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
